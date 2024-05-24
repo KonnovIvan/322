@@ -1,0 +1,27 @@
+User Story 1: User Registration
+As a user, I want to be able to register on the platform to have access to a personal account and its features.
+
+Given that I am an unregistered user and I am on the homepage
+When I click the "Register" link at the top of the page
+Then I fill in my personal data (name, email, password)
+And click the "Register" button
+Then system shows me the message about account confirmation
+When I confirm my email
+Then the website opens for me on the main page with my account
+User Story 2: Adding a Product to the Cart
+As a buyer, I want to be able to add products to the cart to conveniently build an order before purchase.
+
+Given that I am an authorized user
+When I'm on the main product page and see the list of available products
+Then I click the "Add to Cart" button next to the desired product.
+When I finish the selection, I will go to the "Cart" page.
+Then I finally decide what I need (remove unnecessary products from the Cart) and order the product.
+User Story 3: Viewing Order History
+As a registered user, I want to be able to view the history of my orders to track their status and details.
+
+Given I am an authorized user and have made purchases before,
+When I'm on my account page,
+Then I click the "Order History" button,
+When a list of all orders made by me appears.
+Then I can click on a specific order,
+Then I will see detailed information about the order.
